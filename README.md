@@ -39,21 +39,22 @@ There are a number of variables that can be altered to change the results. These
 - WAKE WINDOW
 - DURATION WINDOW
 
-- TEST_SPLIT: the value corresponding to the test portion of the train test split when training the four machine learning algorithms. This value is originally set to 0.2, making the train split 0.8.
 
-- CORRECTNESS_WINDOW: refer to our paper to understand the correctness window.
+TEST_SPLIT: the value corresponding to the test portion of the train test split when training the four machine learning algorithms. This value is originally set to 0.2, making the train split 0.8.
 
-- ITERATIONS: the number of times each machine learning algorithm is applied to the dataset (used to determine which of the four algorithms is most effective on the dataset)
+CORRECTNESS_WINDOW: refer to our paper to understand the correctness window.
 
-- NUM_KNN_NEIGHBORS: the number of neighbors used in the KNN algorithm 
+ITERATIONS: the number of times each machine learning algorithm is applied to the dataset (used to determine which of the four algorithms is most effective on the dataset)
 
-- PRINT_INDIVIDUAL_ACC_RATES: prints additional information in terminal, recommended to leave as False
+NUM_KNN_NEIGHBORS: the number of neighbors used in the KNN algorithm 
 
-- GOAL: minimum sleep score (1-100) that subject intends to aim for for each night of sleep. Refer to paper for more information.
+PRINT_INDIVIDUAL_ACC_RATES: prints additional information in terminal, recommended to leave as False
 
-- NUM_PREDICTIONS: number of sample nights of sleep generated. Refer to paper for more information. 
+GOAL: minimum sleep score (1-100) that subject intends to aim for for each night of sleep. Refer to paper for more information.
 
-- BED_WINDOW, WAKE WINDOW, DURATION_WINDOW: these windows are added to each of the result values to provide some room for error and logistical freedom. In other words, it is difficult to go to bed exactly at the minute that is recommended by the algorithm, so this window provides a logistic buffer for the general window of time that is best for the individual. 
+NUM_PREDICTIONS: number of sample nights of sleep generated. Refer to paper for more information. 
+
+BED_WINDOW, WAKE WINDOW, DURATION_WINDOW: these windows are added to each of the result values to provide some room for error and logistical freedom. In other words, it is difficult to go to bed exactly at the minute that is recommended by the algorithm, so this window provides a logistic buffer for the general window of time that is best for the individual. 
 
 ## Authors
 
