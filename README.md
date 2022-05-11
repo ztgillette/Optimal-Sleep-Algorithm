@@ -13,17 +13,17 @@ https://docs.google.com/spreadsheets/d/17iekB7YOnXmgsQI9F3disB0UMmPV1g3O/edit?us
 
 The code uses Python 3.8. Additionally, make sure to install the following packages using pip or pip3 in the terminal.
 
-'''
+```
 $ pip3 install pandas
 $ pip3 install sklearn
-'''
+```
 
 ## Recreate Results
 To recreate the results, ensure that the dataset (converted_data.xlsx) is put inside a folder (which should be named "sleep_data"). Make sure that the code (main.py) is in the same folder that the folder sleep_data is in. To run the code to recreate the results, simply navigate to the project folder and type the following in the terminal:
 
-'''
+```
 python3 main.py
-'''
+```
 
 ## Alter Results
 There are a number of variables that can be altered to change the results. These variables are global variables, and are defined in all caps directly below the import statements.
