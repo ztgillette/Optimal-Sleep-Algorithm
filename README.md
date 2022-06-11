@@ -1,4 +1,4 @@
-# Determining Optimal Sleeping Habits for Teenagers 
+# Determining Optimal Sleeping Schedules for Teenagers
 
 ## Overview
 
